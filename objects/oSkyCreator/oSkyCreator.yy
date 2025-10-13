@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oSky",
+  "%Name":"oSkyCreator",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSky",
+  "name":"oSkyCreator",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSkyNight",
-    "path":"sprites/sSkyNight/sSkyNight.yy",
+    "name":"sSkyCreator",
+    "path":"sprites/sSkyCreator/sSkyCreator.yy",
   },
   "spriteMaskId":null,
   "visible":true,

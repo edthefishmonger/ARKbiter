@@ -1,2 +1,3 @@
-if random(40) > 39
-	{image_index = random(sprite_length) - 1}
+if place_meeting(x, y, oSkyDestroyer) {instance_destroy()}
+
+y = y - 1
