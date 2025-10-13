@@ -10,9 +10,9 @@ speed_at_which_the_sprite_will_move = .33
 xspd = 0
 yspd = 0
 yspdMax = 2
-fallspd = 1
+fallspd = .4
 movespd = 2
-jumpheight = 4
+jumpheight = 6
 waterFallModifier = .4
 
 left_sprite = sPlayerLeft

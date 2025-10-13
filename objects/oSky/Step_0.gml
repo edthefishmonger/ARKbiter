@@ -1,3 +1,3 @@
 if place_meeting(x, y, oSkyDestroyer) {instance_destroy()}
 
-y = y - 1
+y = y - .25

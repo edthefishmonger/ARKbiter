@@ -23,7 +23,7 @@ if fishing_mode = false
 		if place_meeting(x, y + 4, oWall)
 			{
 				// if jump is down you will be going up
-				if keyboard_check(jump_key) {yspd = jumpheight}
+				if keyboard_check(jump_key) {yspd = -1 * jumpheight}
 			}
 
 		// don't move down if you're on a wall	
@@ -66,5 +66,5 @@ else
 			if facing = 0 {sprite_index = sPlayerFishingRight}
 			else if facing = 1 {sprite_index = sPlayerFishingLeft}
 			
-			instance_create_depth(x, y, 0, oFishingGame)
+			instance_create_depth(x, y, 0, oMinigameFishing)
 		}

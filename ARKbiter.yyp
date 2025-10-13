@@ -36,7 +36,8 @@
   "name":"ARKbiter",
   "resources":[
     {"id":{"name":"oCloud","path":"objects/oCloud/oCloud.yy",},},
-    {"id":{"name":"oFishingGame","path":"objects/oFishingGame/oFishingGame.yy",},},
+    {"id":{"name":"oCloudCreator","path":"objects/oCloudCreator/oCloudCreator.yy",},},
+    {"id":{"name":"oMinigameFishing","path":"objects/oMinigameFishing/oMinigameFishing.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSky","path":"objects/oSky/oSky.yy",},},
     {"id":{"name":"oSkyCreator","path":"objects/oSkyCreator/oSkyCreator.yy",},},
@@ -51,6 +52,8 @@
     {"id":{"name":"oWaveDestroyer","path":"objects/oWaveDestroyer/oWaveDestroyer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"smMacros","path":"scripts/smMacros/smMacros.yy",},},
+    {"id":{"name":"sCloud","path":"sprites/sCloud/sCloud.yy",},},
+    {"id":{"name":"sCloudCreator","path":"sprites/sCloudCreator/sCloudCreator.yy",},},
     {"id":{"name":"sPlayerFishingLeft","path":"sprites/sPlayerFishingLeft/sPlayerFishingLeft.yy",},},
     {"id":{"name":"sPlayerFishingRight","path":"sprites/sPlayerFishingRight/sPlayerFishingRight.yy",},},
     {"id":{"name":"sPlayerLeft","path":"sprites/sPlayerLeft/sPlayerLeft.yy",},},

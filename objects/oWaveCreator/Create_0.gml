@@ -1,4 +1,4 @@
 counter = 32
 maxCounter = 32
 
-waveLayer = layer_get_id("cloudsWaves")
+waveLayer = layer_get_id("Waves")
