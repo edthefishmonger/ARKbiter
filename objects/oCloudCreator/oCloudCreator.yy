@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oFishingGame",
-  "eventList":[],
+  "%Name":"oCloudCreator",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oFishingGame",
+  "name":"oCloudCreator",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sCloudCreator",
+    "path":"sprites/sCloudCreator/sCloudCreator.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
