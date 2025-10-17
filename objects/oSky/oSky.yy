@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSkyNight",
-    "path":"sprites/sSkyNight/sSkyNight.yy",
+    "name":"sSky",
+    "path":"sprites/sSky/sSky.yy",
   },
   "spriteMaskId":null,
   "visible":true,
