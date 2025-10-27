@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sCursor",
-    "path":"sprites/sCursor/sCursor.yy",
+    "name":"sCursorDefault",
+    "path":"sprites/sCursorDefault/sCursorDefault.yy",
   },
   "spriteMaskId":null,
   "visible":true,

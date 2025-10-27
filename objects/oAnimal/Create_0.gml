@@ -10,7 +10,7 @@ image_speed = 0
 has_welped = false // this determines if the animal has made the sound they make when they fall off the ark yet.
 
 animal = "poodle"
-// initialize as correct animal
+// initialize as correct animal - for now there are only poodles
 if animal = "poodle"
 	{
 		sprite_index = sPoodle
@@ -18,8 +18,8 @@ if animal = "poodle"
 		hp = 20
 		morale = 150
 		sound_welp = sndPoodleWelp
+		soundClick = sndPoodleBark
 	}
-
 
 
 // unused dummy vars for now
