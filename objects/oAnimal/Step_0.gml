@@ -39,6 +39,7 @@ xspd = 0
 if !place_meeting(x, y+1, oWall)
 	{
 		yspd += 1
+		// "welp" the first time the animal falls. This sound will eventually be the death sound
 		if !has_welped
 			{
 				has_welped = true
@@ -49,9 +50,15 @@ else {yspd = 0}
 
 
 //random movement cycles
-
+if oCursor.globalStepCounter % randommovementvar == 0
+	{
+		xspd += movespd * right
+		
+	}
 
 
 // core movement
 x += xspd
 y += yspd
+if xspd > 0 {image_index = 1}
+else if xspd < 0 {image_index = 0}

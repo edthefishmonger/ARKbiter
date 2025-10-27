@@ -2,6 +2,11 @@ x = mouse_x
 y = mouse_y
 
 
+globalStepCounter += 1
+
+
+
+
 // change the cursordepending on what is being hovered over
 
 // animal interaction

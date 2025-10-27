@@ -20,3 +20,8 @@ morale = 150
 soundWelp = sndPoodleWelp
 cursorRollover = sCursorPaw
 soundClick = sndPoodleBark
+
+
+
+// JANK - RANDOM MOVEMENT - MAKE IT GOOD ! ! ! ! !
+randommovementvar = random(40) + 40
