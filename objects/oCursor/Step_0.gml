@@ -21,8 +21,16 @@ if place_meeting(x, y, oAnimal)
 			}
 	}
 // building ship
-else if place_meeting(x, y, oWall) {sprite_index = sCursorHammer}
+else if place_meeting(x, y, oWall)
+	{
+		sprite_index = sCursorHammer
+		if mouse_check_button(mb_left) and !audio_is_playing(soundClickHammer) {audio_play_sound(soundClickHammer, 1, false)}
+	}
 // fishing
-else if place_meeting(x, y, oWater) or place_meeting(x, y, oWave) {sprite_index = sCursorFishingRod} 
+else if place_meeting(x, y, oWater) or place_meeting(x, y, oWave)
+	{
+		sprite_index = sCursorFishingRod
+		if mouse_check_button(mb_left) and !audio_is_playing(soundClickFishing) {audio_play_sound(soundClickFishing, 1, false)}
+	} 
 // default cursor
 else {sprite_index = sCursorDefault}

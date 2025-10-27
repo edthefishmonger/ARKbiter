@@ -12,3 +12,6 @@ draw_set_halign(fa_center)
 draw_set_colour(c_yellow)
 
 globalStepCounter = 0
+
+soundClickHammer = sndHammering
+soundClickFishing = sndSplash
