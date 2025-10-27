@@ -21,3 +21,6 @@ right_sprite = sPlayerRight
 fishing_mode = false
 
 facing = 0 // 0 is right, 1 is left
+
+fishingkey = ord("F")
+stopfishingkey = ord("R")

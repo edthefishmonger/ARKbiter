@@ -57,7 +57,7 @@ if fishing_mode = false
 		// DEBUG DEBUG DEBUG
 		// ENABLE FISHING MODE
 		// DEBUG DEBUG DEBUG
-		if keyboard_check(ord("F")) {fishing_mode = true}
+		if keyboard_check(fishingkey) {fishing_mode = true}
 	}
 else
 	// FISHING MODE
@@ -65,6 +65,8 @@ else
 			// character direction
 			if facing = 0 {sprite_index = sPlayerFishingRight}
 			else if facing = 1 {sprite_index = sPlayerFishingLeft}
+			
+			if keyboard_check(stopfishingkey) {fishing_mode = false}
 			
 			instance_create_depth(x, y, 0, oMinigameFishing)
 		}
