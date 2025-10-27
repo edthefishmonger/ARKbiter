@@ -1,8 +1,8 @@
 window_set_cursor(cr_none)
 
 
-xadjust = 1472 / 384 // viewport x divided by camera x
-yadjust = 960 / 256 // viewport y divided by camera y
+xadjust = view_wport / camera_get_view_width(view_camera[0]) // viewport x divided by camera x
+yadjust = view_hport / camera_get_view_height(view_camera[0]) // viewport y divided by camera y
 
 xoffset = 0
 yoffset = -100

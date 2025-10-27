@@ -35,12 +35,12 @@
   },
   "name":"ARKbiter",
   "resources":[
+    {"id":{"name":"oAnimal","path":"objects/oAnimal/oAnimal.yy",},},
     {"id":{"name":"oCloud","path":"objects/oCloud/oCloud.yy",},},
     {"id":{"name":"oCloudCreator","path":"objects/oCloudCreator/oCloudCreator.yy",},},
     {"id":{"name":"oCursor","path":"objects/oCursor/oCursor.yy",},},
     {"id":{"name":"oMinigameFishing","path":"objects/oMinigameFishing/oMinigameFishing.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"oPoodle","path":"objects/oPoodle/oPoodle.yy",},},
     {"id":{"name":"oSky","path":"objects/oSky/oSky.yy",},},
     {"id":{"name":"oSkyCreator","path":"objects/oSkyCreator/oSkyCreator.yy",},},
     {"id":{"name":"oSkyDestroyer","path":"objects/oSkyDestroyer/oSkyDestroyer.yy",},},
