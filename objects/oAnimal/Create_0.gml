@@ -9,20 +9,14 @@ image_speed = 0
 
 has_welped = false // this determines if the animal has made the sound they make when they fall off the ark yet.
 
-animal = "poodle"
-// initialize as correct animal - for now there are only poodles
-if animal = "poodle"
-	{
-		sprite_index = sPoodle
-		hpmax = 20
-		hp = 20
-		morale = 150
-		sound_welp = sndPoodleWelp
-		soundClick = sndPoodleBark
-	}
 
+animal = "undefined" 
+initialized = false // used to run animal initialization based on creation code at the start of Step event
 
-// unused dummy vars for now
+// establish variables w/ dummy info
 hp = 20
 hpmax = 20
 morale = 150
+soundWelp = sndPoodleWelp
+cursorRollover = sCursorPaw
+soundClick = sndPoodleBark

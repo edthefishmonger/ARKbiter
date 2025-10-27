@@ -1,4 +1,4 @@
-if random(64) > 63
+if random(364) > 363
 	{image_index += 1}
 	
 

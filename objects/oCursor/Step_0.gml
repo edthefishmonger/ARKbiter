@@ -7,8 +7,8 @@ y = mouse_y
 // animal interaction
 if place_meeting(x, y, oAnimal)
 	{
-		sprite_index = sCursorPaw
 		var instanceid = instance_place(mouse_x, mouse_y, oAnimal)
+		sprite_index = instanceid.cursorRollover
 		if mouse_check_button(mb_left) and !audio_is_playing(instanceid.soundClick)
 			{
 				audio_play_sound(instanceid.soundClick, 1, false)
