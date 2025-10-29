@@ -50,7 +50,7 @@ else {yspd = 0}
 
 
 //random movement cycles
-if oCursor.globalStepCounter % randommovementvar == 0 and oCursor.globalStepCounter > 0
+if oCursor.globalStepCounter % randommovementvar <1 and oCursor.globalStepCounter > 0
 	{
 		movementcounter = 0
 		right = irandom(1)
@@ -66,5 +66,5 @@ if movementcounter < movement_length
 // core movement
 x += xspd
 y += yspd
-if xspd > 0 {image_index = 1}
-else if xspd < 0 {image_index = 0}
+if xspd > 0 {image_index = 0}
+else if xspd < 0 {image_index = 1}

@@ -24,6 +24,6 @@ soundClick = sndPoodleBark
 
 
 // JANK - RANDOM MOVEMENT - MAKE IT GOOD ! ! ! ! !
-randommovementvar = random(40) + 40
+randommovementvar = random(40) + 140
 movement_length = 20 + random(20)
 movementcounter = 1
