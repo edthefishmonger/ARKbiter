@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sndHammering",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":64,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":1,
   "conversionMode":0,
   "duration":0.9171882,
+  "exportDir":"",
   "name":"sndHammering",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndHammering.wav",
-  "type":0,
   "volume":1.0,
 }
